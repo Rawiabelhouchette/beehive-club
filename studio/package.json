@@ -1,0 +1,21 @@
+{
+  "name": "beehive-studio",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Studio Sanity : carte, soirées, galerie et infos de Beehive Club",
+  "scripts": {
+    "dev": "sanity dev",
+    "build": "sanity build",
+    "deploy": "sanity deploy"
+  },
+  "dependencies": {
+    "@sanity/vision": "^4.0.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "sanity": "^4.0.0",
+    "styled-components": "^6.1.15"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.0"
+  }
+}

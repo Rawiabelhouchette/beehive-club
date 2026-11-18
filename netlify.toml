@@ -1,0 +1,10 @@
+# Déploiement Netlify : Next.js 15 avec le module officiel (pages, API, middleware).
+[build]
+  command = "npm run build"
+  publish = ".next"
+
+[build.environment]
+  NODE_VERSION = "22"
+
+[[plugins]]
+  package = "@netlify/plugin-nextjs"

@@ -1,0 +1,25 @@
+# dépendances
+/node_modules
+
+# build
+/.next/
+/out/
+*.tsbuildinfo
+next-env.d.ts
+
+# réservations stockées en local (mode fichier)
+/.data/
+
+# environnement
+.env
+.env.local
+.env.*.local
+
+# divers
+.DS_Store
+npm-debug.log*
+/studio/node_modules
+/studio/dist
+
+# Netlify CLI
+.netlify

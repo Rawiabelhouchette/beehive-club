@@ -1,0 +1,32 @@
+{
+  "name": "beehive-club",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Site vitrine, spectacles et réservations pour Beehive Club (Hôtel Acquaviva, Gammarth)",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "typecheck": "tsc --noEmit",
+    "test": "tsx --test tests/*.test.ts"
+  },
+  "dependencies": {
+    "@fontsource-variable/montserrat": "^5.0.0",
+    "next": "^15.5.7",
+    "react": "^19.2.1",
+    "react-dom": "^19.2.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "@types/react": "^19.1.0",
+    "@types/react-dom": "^19.1.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.6.0"
+  },
+  "engines": {
+    "node": ">=20.9"
+  },
+  "overrides": {
+    "postcss": "^8"
+  }
+}
